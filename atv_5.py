@@ -1,12 +1,7 @@
 # OBS:
 # a string será obtida pelo teclado do usuário!
 
-
-def metodo_1(str):
-    # metodo mais simples, utilizando 
-    return str[::-1]
-
-def metodo_2(str):
+def inverter(str):
     # metodo alterando cada caractere manualmente:
 
     str_invertida = ""
@@ -16,7 +11,4 @@ def metodo_2(str):
 
 
 str = input("qual string deseja inverter? ")
-print("utilizando metodo 1 (implementacao simples):\n")
-print(metodo_1(str))
-print("utilizando metodo 2 (implementação manual):\n")
-print(metodo_2(str))
+print(inverter(str))
